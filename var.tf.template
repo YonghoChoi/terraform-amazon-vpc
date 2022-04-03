@@ -1,0 +1,5 @@
+locals {
+  env = ""
+  project = ""
+  name = join("", [local.env, local.project])
+}
